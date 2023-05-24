@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.5.18)  24 MAY 2023 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.5.18)  24 MAY 2023 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,27 +581,27 @@ Package babel Info: Making " an active character on input line 122.
 ))) (/usr/share/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 11.
-) (./lalda.aux (./beweise/beweise.aux) (./einfuehrung/einfuehrung.aux))
+) (./lalda.aux (./beweise/beweise.aux) (./einfuehrung/einfuehrung.aux) (./folgen-felder-listen/folgen-felder-listen.aux) (./hashing/hashing.aux) (./sortieren/sortieren.aux) (./prioritaetslisten/prioritaetslisten.aux) (./sortierte_listen/sortierte_listen.aux) (./graphenrepraesentation/graphenrepraesentation.aux) (./graphtravesierung/graphtravesierung.aux) (./kuerzeste_wege/kuerzeste_wege.aux) (./minimale_spannbaeume/minimale_spannbaeume.aux) (./optimierung/optimierung.aux))
 \openout1 = `lalda.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
@@ -630,7 +630,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 20.
  (./lalda.out) (./lalda.out)
 \@outlinefile=\write4
 \openout4 = `lalda.out'.
@@ -642,22 +642,22 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 19.
+(scrartcl)           before \begin{document} on input line 20.
  (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count316
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (10.95003pt too wide) in paragraph at lines 21--22
+Overfull \hbox (10.95003pt too wide) in paragraph at lines 22--23
 [][] 
  []
 
@@ -680,23 +680,93 @@ Overfull \hbox (10.95003pt too wide) in paragraph at lines 21--22
 
 
 
-] (./lalda.aux (./beweise/beweise.aux) (./einfuehrung/einfuehrung.aux))
+]
+\openout2 = `folgen-felder-listen/folgen-felder-listen.aux'.
+
+ (./folgen-felder-listen/folgen-felder-listen.tex) [5
+
+
+
+]
+\openout2 = `hashing/hashing.aux'.
+
+ (./hashing/hashing.tex) [6
+
+
+
+]
+\openout2 = `sortieren/sortieren.aux'.
+
+ (./sortieren/sortieren.tex) [7
+
+
+
+]
+\openout2 = `prioritaetslisten/prioritaetslisten.aux'.
+
+ (./prioritaetslisten/prioritaetslisten.tex) [8
+
+
+
+]
+\openout2 = `sortierte_listen/sortierte_listen.aux'.
+
+ (./sortierte_listen/sortierte_listen.tex) [9
+
+
+
+]
+\openout2 = `graphenrepraesentation/graphenrepraesentation.aux'.
+
+ (./graphenrepraesentation/graphenrepraesentation.tex) [10
+
+
+
+]
+\openout2 = `graphtravesierung/graphtravesierung.aux'.
+
+ (./graphtravesierung/graphtravesierung.tex) [11
+
+
+
+]
+\openout2 = `kuerzeste_wege/kuerzeste_wege.aux'.
+
+ (./kuerzeste_wege/kuerzeste_wege.tex) [12
+
+
+
+]
+\openout2 = `minimale_spannbaeume/minimale_spannbaeume.aux'.
+
+ (./minimale_spannbaeume/minimale_spannbaeume.tex) [13
+
+
+
+]
+\openout2 = `optimierung/optimierung.aux'.
+
+ (./optimierung/optimierung.tex) [14
+
+
+
+] (./lalda.aux (./beweise/beweise.aux) (./einfuehrung/einfuehrung.aux) (./folgen-felder-listen/folgen-felder-listen.aux) (./hashing/hashing.aux) (./sortieren/sortieren.aux) (./prioritaetslisten/prioritaetslisten.aux) (./sortierte_listen/sortierte_listen.aux) (./graphenrepraesentation/graphenrepraesentation.aux) (./graphtravesierung/graphtravesierung.aux) (./kuerzeste_wege/kuerzeste_wege.aux) (./minimale_spannbaeume/minimale_spannbaeume.aux) (./optimierung/optimierung.aux))
 Package rerunfilecheck Info: File `lalda.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26317 strings out of 476025
- 507566 string characters out of 5796532
- 1853388 words of memory out of 5000000
- 46315 multiletter control sequences out of 15000+600000
+ 26657 strings out of 476025
+ 521920 string characters out of 5796532
+ 1859388 words of memory out of 5000000
+ 46545 multiletter control sequences out of 15000+600000
  524226 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,106p,10645b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,12n,106p,10645b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on lalda.pdf (4 pages, 73113 bytes).
+Output written on lalda.pdf (14 pages, 83452 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
