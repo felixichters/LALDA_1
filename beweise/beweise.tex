@@ -1,4 +1,58 @@
 \section{Beweise}
 \rule{\textwidth}{0.4pt}
-\subsection{Statements}
-\dots
+\subsection{Statements} Ein \textbf{Statement/ Aussage} ist ein Mathematischer Ausdruck der entweder wahr oder Fallsch ist. 
+\subsubsection*{Beispiel: } 
+\begin{itemize}
+    \item $2 \in \{x \in \mathbb{R} \vert x < 5\}$ (wahr)
+    \item $3^2 + 5^2 = 8^2$ (falsch)
+\end{itemize} 
+Dabei werden Ausdrüche wie $0 < x < 1$ verwendet um Mengen zu definieren. \[A = \{x\in\mathbb{R} \vert 0 < x < 1\}\] Wichtig ist hierbei der \textbf{Wahrheitswert} eines offenen Ausdrucks $0 < x < 1$ hängt von gewähltem x ab. Also ist 
+\begin{itemize}
+    \item $x = 1/2$ (wahr) 
+    \item $x = 5 $ (falsch)
+\end{itemize}
+Die \textbf{Domäne} ist hierfür wichtig zu beachten. Für $\mathbb{N}$, gibt es kein $x$ s.t. $0 < x < 1$, aber es gibt welche für $\mathbb{R}$
+
+\subsection{Formal mathematical proofs} Ein \textbf{formaler mathematischer Beweise} besteht aus einer nummerierten Sequent von \textbf{wahren Aussagen}. Jede Aussage in einem Beweis ist ein \textbf{Annahme} oder \textbf{folgt} aus vorherigen Aussagen dirch Ableitungsregel/ Inferenzregel (rule of inference). Die Letzte Aussage ist die die wir bewiesen haben.\\
+$\Rightarrow$ Offene Aussagen können in Beweisen nicht auftreten!
+
+\subsubsection*{Beispiel einer Inferenzregel: set definition rule} Wenn ein Element in einer Menge ist, dann können wir definierende Eienschaften ableiten. Andererseits, wenn es die definierende Eigenschaften erfüll, dann können wir ableiten das dasd Element in der Menge ist.
+
+\subsection{Set definition rule: Beispiel} Definiere $C = \{x \in \mathbb{R}\vert x < 2\}$ \\ ($x < 2 \land x \in \mathbb{R}$ ist die definierende Eigenschaft). Dabei gibt es zeiw Möglichkeiten für die Ableitung 
+\begin{itemize}
+    \item [Möglichkeit 1] 
+    \begin{enumerate}
+        \item $a \in C$
+        \item $a < 2 \land a \in \mathbb{R} (1; def C)$
+    \end{enumerate}
+    \item [Möglichkeit 2] 
+    \begin{enumerate}
+        \item $b < 2 \land b \in \mathbb{R} $
+        \item $b \in C (1; def C)$
+    \end{enumerate}
+\end{itemize}
+Jede Aussage in dem Bewies hat eine Nummer. Wir begründen wie wir eine Aussage ableiten, zb $(1; def C)$ bedeutet wir leiten die aktuelle Aussage aus Aussage 1 mit der Definition von $C$ und der set definition rule ab.
+
+\subsubsection*{Bemerkung: $\land b \in R$} wird oft ausgelassen, wenn Kontext es zulässt.
+
+\subsection{Macro-steps in proofs}
+\subsubsection*{Problem: } Schauen wir uns folgenden Bewwis an: \\ (ass = Annahme (assumption) und prop = Eigenschaft(property))
+
+\begin{proof}
+    \textbf{Annahme:}
+    \begin{align*}
+    1. & X = \{x\in\mathbb{R} \,|\, x<1\} \\
+    2. & a\in X
+    \end{align*}
+
+    \textbf{Zeige:} $a<2$
+
+    \begin{align*}
+    1. &\quad a\in X                   && \text{(ass 2)} \\
+    2. &\quad a<1                      && \text{(1, ass 1; def X)} \\
+    3. &\quad 1<2                      && \text{(prop R)} \\
+    4. &\quad a<2                      && \text{(2, 3; prop R)}
+    \end{align*}
+\end{proof}
+\textbf{Ist das ein akzrptabler Beweis?} Akzeptanz von Makro-Schritten wie "\textbf{prop $\mathbb{R}
+$}" hängt von der Zielgruppe ab! \\ Welche Eigenschaft von $\mathbb{R}$ wurde benutzt?
