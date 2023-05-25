@@ -2,11 +2,10 @@
 \contentsline {section}{\numberline {1}Beweise}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Statements}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Formal mathematical proofs}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Set definition rule: Beispiel}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Set definition rule: Beispiel}{4}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Macro-steps in proofs}{4}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Übersicht}{4}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Einfache Beweistechniken}{5}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}$\forall $ Aussagen beweisen}{5}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.5}Einfache Beweistechniken}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}$\forall $ Aussagen beweisen}{5}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Einführung}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}\dots }{7}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Fogen, Felder und Listen}{8}{section.3}%
