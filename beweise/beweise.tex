@@ -56,3 +56,46 @@ Jede Aussage in dem Bewies hat eine Nummer. Wir begründen wie wir eine Aussage 
 \end{proof}
 \textbf{Ist das ein akzrptabler Beweis?} Akzeptanz von Makro-Schritten wie "\textbf{prop $\mathbb{R}
 $}" hängt von der Zielgruppe ab! \\ Welche Eigenschaft von $\mathbb{R}$ wurde benutzt?
+
+\subsection{Übersicht}
+\begin{itemize}
+    \item Beweisen und verwenden von Für Alle Aussagen
+    \item Beweisen und verwenden von Oder Aussagen
+    \item Beweisen und verwenden von Und Aussagen 
+    \item Theorems verwenden
+    \item Beweisen und verwenden von Implikationen
+    \item Law of Excluded Middle 
+    \item Equivalenzen und iff Aussagen
+    \item Beweis durch Widerspruch
+    \item Existenzaussagen 
+\end{itemize}
+
+\subsection{Einfache Beweistechniken}
+\subsubsection*{Beweis durch beispiel}
+\textbf{Beispiel: } Zeigen Sie es gibt einePrimzahl zwischen 80 und 90.\\ \textbf{Idee: } Zeugen angeben für Primzahl $(p)$ für die die Aussage gilt.
+\begin{proof}
+    Wähle $p = 83$
+\end{proof} 
+Ist das ausreichend?\\Eigenflich, \textbf{NEIN}. Wie müssen noch \textbf{zeigen} das 83 tatsächlich eine Primzahl ist. \\Das können wir tun in dem wir alle Teiler ausprobieren. 
+
+\subsubsection*{Wiederlegen von Behauptungen} 
+\textbf{Behauptung: } Nimm an $n$ ist eine Primzahl größer als 1. Dann ist $2^n - 1$ ebenfalls eine Primzahl. \\Können Sie die Behauptung beweisen? Try hard $\cdots$\\ Wenn Sie es nicht können, dann sollen Sie darüber nachednken die Behauptung zu wiederlegen. \textbf{Eine Primzahl $n$ für die $2^n - 1$ nicht prim ist, ist genug!}\\ Das Gegenbeispiel ist $n = 11$ da $11$ prim ist aber \[2^11 - 1 = 2047 = 23 \dot 89\] keine Primzahl ist!
+
+\subsection{$\forall$ Aussagen beweisen}
+\subsubsection*{Inferenzregel für definierte Beziehungen}
+\textbf{The definition rule: }\\ Angenommen, es wurde eine Beziehung definiert. Wenn die Beziehung gilt (in irgendweinem Beweisschritt oder Annahme), dann kann die definierende Eigenschaft abgeleitet werden. Andererseits, wenn die definierende Eigenschaft gilt, dann kann die Beziehung abgeleitet werden.
+
+\subsubsection*{Inferenzregel für definierte Beziehungen}
+\textbf{Beispiel: } Für Mengen $A$ und $B$, definiere $A$ ist \textbf{Teilmenge} von $B$, $A \subseteq B$, wenn \textbf{für alle $x$ mit $x \in A : x \in B$}. Mit anderen Worten: \\ $A \subseteq B$ if and only if (iff) $\forall x ((x \in A) \rightarrow (x \in B))$ ist wahr.
+\begin{itemize}
+    \item [Möglichkeit 1:]
+        \begin{align*}
+            1. &\quad A \subseteq B                   && \text{(ass 2)} \\
+            2. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \text{(1, def $\subseteq$)} \\
+        \end{align*}
+    \item [Möglichkeit 2:]
+        \begin{align*}
+            1. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \text{(1, def $\subseteq$)} \\
+            2. &\quad A \subseteq B                   && \text{(ass 2)} \\
+        \end{align*}
+\end{itemize}

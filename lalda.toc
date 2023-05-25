@@ -4,26 +4,29 @@
 \contentsline {subsection}{\numberline {1.2}Formal mathematical proofs}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Set definition rule: Beispiel}{3}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Macro-steps in proofs}{4}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Einführung}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\dots }{5}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Fogen, Felder und Listen}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}\dots }{6}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Hashing}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}\dots }{7}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Sortieren}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}\dots }{8}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Prioritätslisten}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}\dots }{9}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Sortierte Listen}{10}{section.7}%
-\contentsline {subsection}{\numberline {7.1}\dots }{10}{subsection.7.1}%
-\contentsline {section}{\numberline {8}Graphenreprarsentation}{11}{section.8}%
-\contentsline {subsection}{\numberline {8.1}\dots }{11}{subsection.8.1}%
-\contentsline {section}{\numberline {9}Graphtravesierung}{12}{section.9}%
-\contentsline {subsection}{\numberline {9.1}\dots }{12}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Küreste Wege}{13}{section.10}%
-\contentsline {subsection}{\numberline {10.1}\dots }{13}{subsection.10.1}%
-\contentsline {section}{\numberline {11}Minimale Spannbäume}{14}{section.11}%
-\contentsline {subsection}{\numberline {11.1}\dots }{14}{subsection.11.1}%
-\contentsline {section}{\numberline {12}Optimierung}{15}{section.12}%
-\contentsline {subsection}{\numberline {12.1}\dots }{15}{subsection.12.1}%
+\contentsline {subsection}{\numberline {1.5}Übersicht}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Einfache Beweistechniken}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}$\forall $ Aussagen beweisen}{5}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Einführung}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\dots }{7}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Fogen, Felder und Listen}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\dots }{8}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Hashing}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\dots }{9}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Sortieren}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\dots }{10}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Prioritätslisten}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\dots }{11}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Sortierte Listen}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}\dots }{12}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Graphenreprarsentation}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}\dots }{13}{subsection.8.1}%
+\contentsline {section}{\numberline {9}Graphtravesierung}{14}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\dots }{14}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Küreste Wege}{15}{section.10}%
+\contentsline {subsection}{\numberline {10.1}\dots }{15}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Minimale Spannbäume}{16}{section.11}%
+\contentsline {subsection}{\numberline {11.1}\dots }{16}{subsection.11.1}%
+\contentsline {section}{\numberline {12}Optimierung}{17}{section.12}%
+\contentsline {subsection}{\numberline {12.1}\dots }{17}{subsection.12.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
