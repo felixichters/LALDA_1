@@ -62,22 +62,21 @@ Jede Aussage in dem Bewies hat eine Nummer. Wir begründen wie wir eine Aussage 
 \subsection{Macro-steps in proofs}
 \subsubsection*{Problem: } Schauen wir uns folgenden Bewwis an: \\ (ass = Annahme (assumption) und prop = Eigenschaft(property))
 
-\begin{proof}
-    \textbf{Annahme:}
-    \begin{align*}
+\proofbox{\\Annahme}
+{\begin{align*}
     1. & X = \{x\in\mathbb{R} \,|\, x<1\} \\
     2. & a\in X
     \end{align*}
-
-    \textbf{Zeige:} $a<2$
-
-    \begin{align*}
+}
+{    
+    $a<2$
+}
+{
     1. &\quad a\in X                   && \text{(ass 2)} \\
     2. &\quad a<1                      && \text{(1, ass 1; def X)} \\
     3. &\quad 1<2                      && \text{(prop R)} \\
     4. &\quad a<2                      && \text{(2, 3; prop R)}
-    \end{align*}
-\end{proof}
+}
 \textbf{Ist das ein akzrptabler Beweis?} Akzeptanz von Makro-Schritten wie "\textbf{prop $\mathbb{R}
 $}" hängt von der Zielgruppe ab! \\ Welche Eigenschaft von $\mathbb{R}$ wurde benutzt?
 
@@ -132,7 +131,9 @@ Sei $\mathfrak{P} $ eine Formel. Beispielsweise steht $\mathfrak{P}(x)$ für $x 
     2. & D = \{x \in \mathbb{R} \vert x < 2\}
     \end{align*}
 }
-{\ensuremath{C \subseteq D}}
+{
+    \ensuremath{C \subseteq D}
+}
 {
     1. &\quad\quad \text{Sei }x \in C \text{ beliebig } && \text{ } \\
     2. &\quad\quad x < 1 && \text{(1, ass 1; def C)} \\
