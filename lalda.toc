@@ -7,7 +7,8 @@
 \contentsline {subsection}{\numberline {1.5}Einfache Beweistechniken}{5}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}$\forall $ Aussagen beweisen}{5}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Einführung}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\dots }{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Algorithmenanalyse}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Asymptotische Algorithmenanalyse}{7}{subsubsection.2.1.1}%
 \contentsline {section}{\numberline {3}Fogen, Felder und Listen}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}\dots }{8}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Hashing}{9}{section.4}%
