@@ -7,14 +7,19 @@
   \vspace{1cm}
 }
 
-\newcommand{\proofbox}[4]{%
+\newcommand{\proofbox}[3]{%
     \begin{proof}
-        \textbf{#1:} #2\textbf{Zeige:} #3
+        \\ \textbf{Annahme:}
         \begin{align*}
-        #4
+            #1
         \end{align*}
-    \end{proof}
+        \textbf{Zeige:} #2
+        \begin{align*}
+            #3
+        \end{align*}
+    \end{proof}%
 }
+
 
 \section{Beweise}
 \rule{\textwidth}{0.4pt}
@@ -62,33 +67,34 @@ Jede Aussage in dem Bewies hat eine Nummer. Wir begründen wie wir eine Aussage 
 \subsection{Macro-steps in proofs}
 \subsubsection*{Problem: } Schauen wir uns folgenden Bewwis an: \\ (ass = Annahme (assumption) und prop = Eigenschaft(property))
 
-\proofbox{\\Annahme}
-{\begin{align*}
-    1. & X = \{x\in\mathbb{R} \,|\, x<1\} \\
-    2. & a\in X
-    \end{align*}
-}
-{    
-    $a<2$
-}
-{
-    1. &\quad a\in X                   && \text{(ass 2)} \\
-    2. &\quad a<1                      && \text{(1, ass 1; def X)} \\
-    3. &\quad 1<2                      && \text{(prop R)} \\
-    4. &\quad a<2                      && \text{(2, 3; prop R)}
-}
+%\proofbox
+%{
+%    1. & X = \{x\in\mathbb{R} \,|\, x<1\} \\
+%    2. & a\in X
+%}
+%{    
+%    $a<2$
+%}
+%{
+%    1. &\quad a\in X                   && \text%{(ass 2)} \\
+%    2. &\quad a<1                      && \text{(1, ass 1; def X)} \\
+%    3. &\quad 1<2                      && \text{(prop R)} \\
+%    4. &\quad a<2                      && \text{(2, 3; prop R)}
+%}
+    
+
 \textbf{Ist das ein akzrptabler Beweis?} Akzeptanz von Makro-Schritten wie "\textbf{prop $\mathbb{R}
 $}" hängt von der Zielgruppe ab! \\ Welche Eigenschaft von $\mathbb{R}$ wurde benutzt?
 
 \subsection{Einfache Beweistechniken}
-\subsubsection*{Beweis durch beispiel}
+\subsubsection{Beweis durch beispiel}
 \textbf{Beispiel: } Zeigen Sie es gibt einePrimzahl zwischen 80 und 90.\\ \textbf{Idee: } Zeugen angeben für Primzahl $(p)$ für die die Aussage gilt.
 \begin{proof}
     Wähle $p = 83$
 \end{proof} 
 Ist das ausreichend?\\Eigenflich, \textbf{NEIN}. Wie müssen noch \textbf{zeigen} das 83 tatsächlich eine Primzahl ist. \\Das können wir tun in dem wir alle Teiler ausprobieren. 
 
-\subsubsection*{Wiederlegen von Behauptungen} 
+\subsubsection{Wiederlegen von Behauptungen} 
 \textbf{Behauptung: } Nimm an $n$ ist eine Primzahl größer als 1. Dann ist $2^n - 1$ ebenfalls eine Primzahl. \\Können Sie die Behauptung beweisen? Try hard $\cdots$\\ Wenn Sie es nicht können, dann sollen Sie darüber nachednken die Behauptung zu wiederlegen. \textbf{Eine Primzahl $n$ für die $2^n - 1$ nicht prim ist, ist genug!}\\ Das Gegenbeispiel ist $n = 11$ da $11$ prim ist aber \[2^{11} - 1 = 2047 = 23 \cdot 89\] keine Primzahl ist!
 
 \subsection{$\forall$ Aussagen beweisen}
@@ -122,25 +128,64 @@ Sei $\mathfrak{P} $ eine Formel. Beispielsweise steht $\mathfrak{P}(x)$ für $x 
 \defbox{Regeln um $\forall$ Aussagen zu beweisen (pr $\forall$)}{ Um Aussagen der Form "\textbf{für alle $x$ in s.t. $\mathfrak{P}(x) : \mathfrak{Q}(x)$}", zu beweisen nimmt man an $x$ sei \textbf{beliebig gewähtes Element (eigenvariable)} s.t $\mathfrak{P}(x)$ wahr ist. Dann zeige man $\mathfrak{Q}(x)$ ist wahr.}
 \textbf{Generaliesirungen} z.B. "für alle $x, y$ s.t. $\mathfrak{P}(x,y):\mathfrak{Q}(x,y)$" möglich
 
-\subsubsection*{Inferenzeregel für $\forall$: Ein Beispiel} Sei $C = \{x \in \mathbb{R} \vert x < 1\}$ und $D = \{x \in \mathbb{R}\vert x < 2\}$. Zeige $C \subseteq D$! 
+\subsubsection{Ein Beispiel} Sei $C = \{x \in \mathbb{R} \vert x < 1\}$ und $D = \{x \in \mathbb{R}\vert x < 2\}$. Zeige $C \subseteq D$! 
 
-\proofbox{\\Annahme}
-{
-    \begin{align*}
-    1. & C = \{X \in \mathbb{R} \vert x < 1\} \\
-    2. & D = \{x \in \mathbb{R} \vert x < 2\}
-    \end{align*}
-}
-{
-    \ensuremath{C \subseteq D}
-}
-{
-    1. &\quad\quad \text{Sei }x \in C \text{ beliebig } && \text{ } \\
-    2. &\quad\quad x < 1 && \text{(1, ass 1; def C)} \\
-    3. &\quad\quad x < 2 && (2, \text {prop} \mathbb{R} ) \\
-    4. &\quad\quad  x \in D && \text{(3, ass 2; def D)} \\
-    5. & \quad \text{für alle} x \in X : x \in D && (1 - 4; \text{pr} \forall) \\
-    6. & \quad C \subseteq D && (5, \text{def} \subseteq)\\
-}
+%\proofbox
+%{
+%    1. & C = \{X \in \mathbb{R} \vert x < 1\} \\
+%    2. & D = \{x \in \mathbb{R} \vert x < 2\}
+%}
+%{
+%    \ensuremath{C \subseteq D}
+%}
+%{
+%    1. &\quad\quad \text{Sei }x \in C \text{ beliebig } && \text{ } \\
+%    2. &\quad\quad x < 1 && \text{(1, ass 1; def C)} \\
+%    3. &\quad\quad x < 2 && (2, \text {prop} \mathbb{R} ) \\
+%    4. &\quad\quad  x \in D && \text{(3, ass 2; def D)} \\
+%    5. & \quad \text{für alle } x \in X : x \in D && (1 - 4; \text{pr} \forall) \\
+%    6. & \quad C \subseteq D && (5, \text{def} \subseteq)
+%}
+
 
 \textbf{Wie können wir "für alle $x$ s.t $\mathfrak{P}(x) : \mathfrak{Q}(x)$" wiederlegen?}
+
+\subsubsection{Bemerkungen}
+\begin{itemize}
+    \item Durch Einrückung kennzeochnen wir \textbf{Teilbeweise} die von einer ANnahme wie "Sei $x \in C$ beliebig" abhängen.
+    \item Eine Annahme hat keine Begründung.
+    \item Teilbeweise 2-4 basieren auf der Annahme in 1
+    \item Schritte aus 1-4 können nicht in Begründungen auftauchen, sobald der Teilbeweis fertig ist (d. h, \textbf{nach pr $\forall$ in 5})
+    \item Wir schreiben oft "für alle $x \in C : x \in D$" statt "für alle $x s.t. x \in C : x \in D$" 
+\end{itemize}
+
+\section{Verwenden von $\forall$ Aussagen}
+\subsection{Inferenzeregel um $\forall$ Aussagen zu verwenden}
+\defbox
+{
+    Die Regel um $\forall$ Aussagen in Beweisen zu verwenden (us $\forall$)
+    }
+{
+    Wenn wir wissen das eine Aussage "für alle $x$ s.t $\mathcal{P}(x) : \mathcal{Q}(x)$" wahr ist und wir $\mathcal{P}(t)$ berets als einen Schritt für eine Variable $t$ im Beweis haben, dann können wir $\mathcal{Q}(t)$ ableiten.
+}
+
+\subsubsection{Beispiel}
+
+    \begin{align*}
+        1. &\quad t \in A                   && \\
+        2. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \\
+        3. &\quad t \in B && (1, 2; us \forall)\\
+    \end{align*}    
+
+\subsubsection{Beispiel}
+
+\begin{align*}
+    1. &\quad |a| < |b|                   && \\
+    2. &\quad \text{für alle x s.t.} |x| \leq |y| : x^2 \leq y^2                      && \\
+    3. &\quad a^2 < b^2 && (1, 2; us \forall)\\
+\end{align*}    
+
+\subsection{Beispiel}
+Seiesn $A, B, C$ Mengen. Zeige $\subseteq$ ist transitiv, d. h, zeige $A \subseteq B$ und $B \subseteq B$, dann $A \subseteq C$.
+
+
