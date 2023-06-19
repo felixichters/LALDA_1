@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  19 JUN 2023 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  19 JUN 2023 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -790,13 +790,13 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 5
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<folgen-felder-listen/abb_1.png, id=229, 769.87625pt x 148.555pt>
+<folgen-felder-listen/abb_1.png, id=233, 769.87625pt x 148.555pt>
 File: folgen-felder-listen/abb_1.png Graphic file (type png)
 <use folgen-felder-listen/abb_1.png>
 Package pdftex.def Info: folgen-felder-listen/abb_1.png  used on input line 61.
 (pdftex.def)             Requested size: 224.06548pt x 43.23624pt.
  [11 <./folgen-felder-listen/abb_1.png>]
-<folgen-felder-listen/abb_2.png, id=242, 917.4275pt x 221.82875pt>
+<folgen-felder-listen/abb_2.png, id=246, 917.4275pt x 221.82875pt>
 File: folgen-felder-listen/abb_2.png Graphic file (type png)
 <use folgen-felder-listen/abb_2.png>
 Package pdftex.def Info: folgen-felder-listen/abb_2.png  used on input line 76.
@@ -807,7 +807,7 @@ Overfull \hbox (97.99438pt too wide) in paragraph at lines 102--102
  []
 
 [12 <./folgen-felder-listen/abb_2.png>] [13]
-<folgen-felder-listen/abb_3.png, id=272, 696.6025pt x 139.52126pt>
+<folgen-felder-listen/abb_3.png, id=277, 696.6025pt x 139.52126pt>
 File: folgen-felder-listen/abb_3.png Graphic file (type png)
 <use folgen-felder-listen/abb_3.png>
 Package pdftex.def Info: folgen-felder-listen/abb_3.png  used on input line 160.
@@ -888,18 +888,18 @@ Package rerunfilecheck Info: File `lalda.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29921 strings out of 476025
- 600868 string characters out of 5790017
- 1868388 words of memory out of 5000000
- 49630 multiletter control sequences out of 15000+600000
+ 29924 strings out of 476025
+ 600904 string characters out of 5790017
+ 1867388 words of memory out of 5000000
+ 49631 multiletter control sequences out of 15000+600000
  529460 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,13n,106p,10669b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on lalda.pdf (26 pages, 298954 bytes).
+Output written on lalda.pdf (26 pages, 299464 bytes).
 PDF statistics:
- 657 PDF objects out of 1000 (max. 8388607)
- 577 compressed objects within 6 object streams
- 170 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 
