@@ -1,0 +1,6 @@
+iff Aussagen 
+- if is with two points!
+
+
+general:
+- maybe add colours

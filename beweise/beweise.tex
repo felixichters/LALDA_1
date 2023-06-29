@@ -1,10 +1,11 @@
 \newcommand{\defbox}[2]{
 \vspace{1cm}
 \noindent
-  \begin{tcolorbox}[colframe=red, colback=white, width=\linewidth, title=#1]
-    #2
-  \end{tcolorbox}
-  \vspace{1cm}
+    \begin{tcolorbox}
+        [colframe=red, colback=white, width=\linewidth, title=#1]
+        #2
+    \end{tcolorbox}
+    \vspace{1cm}
 }
 
 \newcommand{\proofbox}[3]{%
@@ -22,170 +23,477 @@
 
 
 \section{Beweise}
-\rule{\textwidth}{0.4pt}
-\subsection{Statements} Ein \textbf{Statement/ Aussage} ist ein Mathematischer Ausdruck der entweder wahr oder Fallsch ist. 
-\subsubsection*{Beispiel: } 
-\begin{itemize}
-    \item $2 \in \{x \in \mathbb{R} \vert x < 5\}$ (wahr)
-    \item $3^2 + 5^2 = 8^2$ (falsch)
-\end{itemize} 
-Dabei werden Ausdrüche wie $0 < x < 1$ verwendet um Mengen zu definieren. \[A = \{x\in\mathbb{R} \vert 0 < x < 1\}\] Wichtig ist hierbei der \textbf{Wahrheitswert} eines offenen Ausdrucks $0 < x < 1$ hängt von gewähltem x ab. Also ist 
-\begin{itemize}
-    \item $x = 1/2$ (wahr) 
-    \item $x = 5 $ (falsch)
-\end{itemize}
-Die \textbf{Domäne} ist hierfür wichtig zu beachten. Für $\mathbb{N}$, gibt es kein $x$ s.t. $0 < x < 1$, aber es gibt welche für $\mathbb{R}$
+    \rule{\textwidth}{0.4pt}
+    \subsubsection{Obervation}
+    \subsubsection{Links, etc}
+    \subsubsection{Statements}
+        Ein \textbf{Statement/ Aussage} ist ein Mathematischer Ausdruck der entweder wahr oder Fallsch ist.
+        \paragraph{Beispiel: } 
+        \begin{itemize}
+            \item $2 \in \{x \in \mathbb{R} \vert x < 5\}$ (wahr)
+            \item $3^2 + 5^2 = 8^2$ (falsch)
+        \end{itemize} 
+        Dabei werden Ausdrüche wie $0 < x < 1$ verwendet um Mengen zu definieren. \[A = \{x\in\mathbb{R} \vert 0 < x < 1\}\] Wichtig ist hierbei der \textbf{Wahrheitswert} eines offenen Ausdrucks $0 < x < 1$ hängt von gewähltem x ab. Also ist 
+        \begin{itemize}
+            \item $x = 1/2$ (wahr) 
+            \item $x = 5 $ (falsch)
+        \end{itemize}
+        Die \textbf{Domäne} ist hierfür wichtig zu beachten. Für $\mathbb{N}$, gibt es kein $x$ s.t. $0 < x < 1$, aber es gibt welche für $\mathbb{R}$
 
-\subsection{Formal mathematical proofs} Ein \textbf{formaler mathematischer Beweise} besteht aus einer nummerierten Sequent von \textbf{wahren Aussagen}. Jede Aussage in einem Beweis ist ein \textbf{Annahme} oder \textbf{folgt} aus vorherigen Aussagen dirch Ableitungsregel/ Inferenzregel (rule of inference). Die Letzte Aussage ist die die wir bewiesen haben.\\
-$\Rightarrow$ Offene Aussagen können in Beweisen nicht auftreten!
+    \subsubsection{Formal mathimatical Proofs}
+        Ein \textbf{formaler mathematischer Beweise} besteht aus einer nummerierten Sequent von \textbf{wahren Aussagen}. Jede Aussage in einem Beweis ist ein \textbf{Annahme} oder \textbf{folgt} aus vorherigen Aussagen dirch Ableitungsregel/ Inferenzregel (rule of inference). Die Letzte Aussage ist die die wir bewiesen haben.\\ $\Rightarrow$ Offene Aussagen können in Beweisen nicht auftreten!
 
-\defbox
-{
-    Beispiel einer Inferenzregel: set definition rule
-}
-{
-    Wenn ein Element in einer Menge ist, dann können wir definierende Eienschaften ableiten. Andererseits, wenn es die definierende Eigenschaften erfüll, dann können wir ableiten das dasd Element in der Menge ist.
-}
+        \defbox
+        {
+        Beispiel einer Inferenzregel: set definition rule
+        }
+        {
+            Wenn ein Element in einer Menge ist, dann können wir definierende Eienschaften ableiten. Andererseits, wenn es die definierende Eigenschaften erfüll, dann können wir ableiten das dasd Element in der Menge ist.
+        }
+    \subsubsection{set definition rule: Beispiel}
+        Definiere $C = \{x \in \mathbb{R}\vert x < 2\}$ \\ ($x < 2 \land x \in \mathbb{R}$ ist die definierende Eigenschaft). Dabei gibt es zeiw Möglichkeiten für die Ableitung 
+        \begin{itemize}
+            \item [Möglichkeit 1] 
+            \begin{enumerate}
+                \item $a \in C$
+                \item $a < 2 \land a \in \mathbb{R} (1; def C)$
+            \end{enumerate}
+            \item [Möglichkeit 2] 
+            \begin{enumerate}
+                \item $b < 2 \land b \in \mathbb{R} $
+                \item $b \in C (1; def C)$
+            \end{enumerate}
+        \end{itemize}
+        Jede Aussage in dem Bewies hat eine Nummer. Wir begründen wie wir eine Aussage ableiten, zb $(1; def C)$ bedeutet wir leiten die aktuelle Aussage aus Aussage 1 mit der Definition von $C$ und der set definition rule ab.
 
-\subsection{Set definition rule: Beispiel} Definiere $C = \{x \in \mathbb{R}\vert x < 2\}$ \\ ($x < 2 \land x \in \mathbb{R}$ ist die definierende Eigenschaft). Dabei gibt es zeiw Möglichkeiten für die Ableitung 
-\begin{itemize}
-    \item [Möglichkeit 1] 
-    \begin{enumerate}
-        \item $a \in C$
-        \item $a < 2 \land a \in \mathbb{R} (1; def C)$
-    \end{enumerate}
-    \item [Möglichkeit 2] 
-    \begin{enumerate}
-        \item $b < 2 \land b \in \mathbb{R} $
-        \item $b \in C (1; def C)$
-    \end{enumerate}
-\end{itemize}
-Jede Aussage in dem Bewies hat eine Nummer. Wir begründen wie wir eine Aussage ableiten, zb $(1; def C)$ bedeutet wir leiten die aktuelle Aussage aus Aussage 1 mit der Definition von $C$ und der set definition rule ab.
+        \paragraph{Bemerkung: $\land b \in R$} 
+        wird oft ausgelassen, wenn Kontext es zulässt.
 
-\subsubsection*{Bemerkung: $\land b \in R$} wird oft ausgelassen, wenn Kontext es zulässt.
+    \subsubsection{Makrosteps in Proof}
+        \paragraph{Problem: } 
+        Schauen wir uns folgenden Bewwis an: \\ (ass = Annahme (assumption) und prop = Eigenschaft(property))
 
-\subsection{Macro-steps in proofs}
-\subsubsection*{Problem: } Schauen wir uns folgenden Bewwis an: \\ (ass = Annahme (assumption) und prop = Eigenschaft(property))
+        \[
+            PROOF HERE    
+        \]
 
-%\proofbox
-%{
-%    1. & X = \{x\in\mathbb{R} \,|\, x<1\} \\
-%    2. & a\in X
-%}
-%{    
-%    $a<2$
-%}
-%{
-%    1. &\quad a\in X                   && \text%{(ass 2)} \\
-%    2. &\quad a<1                      && \text{(1, ass 1; def X)} \\
-%    3. &\quad 1<2                      && \text{(prop R)} \\
-%    4. &\quad a<2                      && \text{(2, 3; prop R)}
-%}
-    
+        \paragraph{Ist das ein akzrptabler Beweis?} 
+        Akzeptanz von Makro-Schritten wie "\textbf{prop $\mathbb{R}$}" hängt von der Zielgruppe ab! \\ Welche Eigenschaft von $\mathbb{R}$ wurde benutzt?
 
-\textbf{Ist das ein akzrptabler Beweis?} Akzeptanz von Makro-Schritten wie "\textbf{prop $\mathbb{R}
-$}" hängt von der Zielgruppe ab! \\ Welche Eigenschaft von $\mathbb{R}$ wurde benutzt?
+    \subsection{Einfache Beweistechniken}
+        \paragraph{Beweis durch beispiel}
+        \textbf{Beispiel: } Zeigen Sie es gibt einePrimzahl zwischen 80 und 90.\\ \textbf{Idee: } Zeugen angeben für Primzahl $(p)$ für die die Aussage gilt.
+        \begin{proof}
+            Wähle $p = 83$
+        \end{proof} 
+        Ist das ausreichend?\\Eigenflich, \textbf{NEIN}. Wie müssen noch \textbf{zeigen} das 83 tatsächlich eine Primzahl ist. \\Das können wir tun in dem wir alle Teiler ausprobieren. 
 
-\subsection{Einfache Beweistechniken}
-\subsubsection{Beweis durch beispiel}
-\textbf{Beispiel: } Zeigen Sie es gibt einePrimzahl zwischen 80 und 90.\\ \textbf{Idee: } Zeugen angeben für Primzahl $(p)$ für die die Aussage gilt.
-\begin{proof}
-    Wähle $p = 83$
-\end{proof} 
-Ist das ausreichend?\\Eigenflich, \textbf{NEIN}. Wie müssen noch \textbf{zeigen} das 83 tatsächlich eine Primzahl ist. \\Das können wir tun in dem wir alle Teiler ausprobieren. 
+            \subsubsection{Wiederlegen von Behauptungen} 
+            \textbf{Behauptung: } Nimm an $n$ ist eine Primzahl größer als 1. Dann ist $2^n - 1$ ebenfalls eine Primzahl. \\Können Sie die Behauptung beweisen? Try hard $\cdots$\\ Wenn Sie es nicht können, dann sollen Sie darüber nachednken die Behauptung zu wiederlegen. \textbf{Eine Primzahl $n$ für die $2^n - 1$ nicht prim ist, ist genug!}\\ Das Gegenbeispiel ist $n = 11$ da $11$ prim ist aber \[2^{11} - 1 = 2047 = 23 \cdot 89\] keine Primzahl ist!
 
-\subsubsection{Wiederlegen von Behauptungen} 
-\textbf{Behauptung: } Nimm an $n$ ist eine Primzahl größer als 1. Dann ist $2^n - 1$ ebenfalls eine Primzahl. \\Können Sie die Behauptung beweisen? Try hard $\cdots$\\ Wenn Sie es nicht können, dann sollen Sie darüber nachednken die Behauptung zu wiederlegen. \textbf{Eine Primzahl $n$ für die $2^n - 1$ nicht prim ist, ist genug!}\\ Das Gegenbeispiel ist $n = 11$ da $11$ prim ist aber \[2^{11} - 1 = 2047 = 23 \cdot 89\] keine Primzahl ist!
+    \subsection{Beweisen und verwenden von Für Alle Aussagen}
+        \subsubsection{Inferenzregel für definierte Beziehungen}
 
-\subsection{$\forall$ Aussagen beweisen}
-\subsubsection*{Inferenzregel für definierte Beziehungen}
+            \defbox
+            {
+                The definition rule 
+            }
+            {
+                Angenommen, es wurde eine Beziehung definiert. Wenn die Beziehung gilt (in irgendweinem Beweisschritt oder Annahme), dann kann die definierende Eigenschaft abgeleitet werden. Andererseits, wenn die definierende Eigenschaft gilt, dann kann die Beziehung abgeleitet werden.
+            }
 
-\defbox
-{
-    The definition rule 
-}
-{
-    Angenommen, es wurde eine Beziehung definiert. Wenn die Beziehung gilt (in irgendweinem Beweisschritt oder Annahme), dann kann die definierende Eigenschaft abgeleitet werden. Andererseits, wenn die definierende Eigenschaft gilt, dann kann die Beziehung abgeleitet werden.
-}
+            \textbf{Beispiel: } Für Mengen $A$ und $B$, definiere $A$ ist \textbf{Teilmenge} von $B$, $A \subseteq B$, wenn \textbf{für alle $x$ mit $x \in A : x \in B$}. Mit anderen Worten: \\ $A \subseteq B$ if and only if (iff) $\forall x ((x \in A) \rightarrow (x \in B))$ ist wahr.
+            \begin{itemize}
+                \item [Möglichkeit 1:]
+                    \begin{align*}
+                        1. &\quad A \subseteq B                   && \text{(ass 2)} \\
+                        2. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \text{(1, def $\subseteq$)} \\
+                    \end{align*}
+                \item [Möglichkeit 2:]
+                    \begin{align*}
+                        1. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \text{(1, def $\subseteq$)} \\
+                        2. &\quad A \subseteq B                   && \text{(ass 2)} \\
+                    \end{align*}
+            \end{itemize}
 
-\textbf{Beispiel: } Für Mengen $A$ und $B$, definiere $A$ ist \textbf{Teilmenge} von $B$, $A \subseteq B$, wenn \textbf{für alle $x$ mit $x \in A : x \in B$}. Mit anderen Worten: \\ $A \subseteq B$ if and only if (iff) $\forall x ((x \in A) \rightarrow (x \in B))$ ist wahr.
-\begin{itemize}
-    \item [Möglichkeit 1:]
-        \begin{align*}
-            1. &\quad A \subseteq B                   && \text{(ass 2)} \\
-            2. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \text{(1, def $\subseteq$)} \\
-        \end{align*}
-    \item [Möglichkeit 2:]
-        \begin{align*}
-            1. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \text{(1, def $\subseteq$)} \\
-            2. &\quad A \subseteq B                   && \text{(ass 2)} \\
-        \end{align*}
-\end{itemize}
+        \subsubsection{Inferenzeregel für all Aussagen}
+            Sei $\mathfrak{P} $ eine Formel. Beispielsweise steht $\mathfrak{P}(x)$ für $x \in A$ und $\mathfrak{Q}(x)$ steht für $x \in B$. Dann kann "\textbf{für alle x s.t. $x \in A: x \in B$}" als "\textbf{für alle x s.t. $\mathfrak{P}(x) : \mathfrak{Q}(x)$}" geschrieben werden.
+            \defbox{Regeln um $\forall$ Aussagen zu beweisen (pr $\forall$)}{ Um Aussagen der Form "\textbf{für alle $x$ in s.t. $\mathfrak{P}(x) : \mathfrak{Q}(x)$}", zu beweisen nimmt man an $x$ sei \textbf{beliebig gewähtes Element (eigenvariable)} s.t $\mathfrak{P}(x)$ wahr ist. Dann zeige man $\mathfrak{Q}(x)$ ist wahr.}
+            \paragraph{Generaliesirungen} z.B. "für alle $x, y$ s.t. $\mathfrak{P}(x,y):\mathfrak{Q}(x,y)$" möglich
 
-\subsubsection*{Inferenzeregel für $\forall$}
-Sei $\mathfrak{P} $ eine Formel. Beispielsweise steht $\mathfrak{P}(x)$ für $x \in A$ und $\mathfrak{Q}(x)$ steht für $x \in B$. Dann kann "\textbf{für alle x s.t. $x \in A: x \in B$}" als "\textbf{für alle x s.t. $\mathfrak{P}(x) : \mathfrak{Q}(x)$}" geschrieben werden.
+        \paragraph{Ein Beispiel} 
+            Sei $C = \{x \in \mathbb{R} \vert x < 1\}$ und $D = \{x \in \mathbb{R}\vert x < 2\}$. Zeige $C \subseteq D$! 
 
-\defbox{Regeln um $\forall$ Aussagen zu beweisen (pr $\forall$)}{ Um Aussagen der Form "\textbf{für alle $x$ in s.t. $\mathfrak{P}(x) : \mathfrak{Q}(x)$}", zu beweisen nimmt man an $x$ sei \textbf{beliebig gewähtes Element (eigenvariable)} s.t $\mathfrak{P}(x)$ wahr ist. Dann zeige man $\mathfrak{Q}(x)$ ist wahr.}
-\textbf{Generaliesirungen} z.B. "für alle $x, y$ s.t. $\mathfrak{P}(x,y):\mathfrak{Q}(x,y)$" möglich
-
-\subsubsection{Ein Beispiel} Sei $C = \{x \in \mathbb{R} \vert x < 1\}$ und $D = \{x \in \mathbb{R}\vert x < 2\}$. Zeige $C \subseteq D$! 
-
-%\proofbox
-%{
-%    1. & C = \{X \in \mathbb{R} \vert x < 1\} \\
-%    2. & D = \{x \in \mathbb{R} \vert x < 2\}
-%}
-%{
-%    \ensuremath{C \subseteq D}
-%}
-%{
-%    1. &\quad\quad \text{Sei }x \in C \text{ beliebig } && \text{ } \\
-%    2. &\quad\quad x < 1 && \text{(1, ass 1; def C)} \\
-%    3. &\quad\quad x < 2 && (2, \text {prop} \mathbb{R} ) \\
-%    4. &\quad\quad  x \in D && \text{(3, ass 2; def D)} \\
-%    5. & \quad \text{für alle } x \in X : x \in D && (1 - 4; \text{pr} \forall) \\
-%    6. & \quad C \subseteq D && (5, \text{def} \subseteq)
-%}
+            \[Proof Here!\]
 
 
-\textbf{Wie können wir "für alle $x$ s.t $\mathfrak{P}(x) : \mathfrak{Q}(x)$" wiederlegen?}
+            \subparagraph*
+                {
+                    Wie können wir "für alle $x$ s.t $\mathfrak{P}(x) : \mathfrak{Q}(x)$" wiederlegen?
+                }
 
-\subsubsection{Bemerkungen}
-\begin{itemize}
-    \item Durch Einrückung kennzeochnen wir \textbf{Teilbeweise} die von einer ANnahme wie "Sei $x \in C$ beliebig" abhängen.
-    \item Eine Annahme hat keine Begründung.
-    \item Teilbeweise 2-4 basieren auf der Annahme in 1
-    \item Schritte aus 1-4 können nicht in Begründungen auftauchen, sobald der Teilbeweis fertig ist (d. h, \textbf{nach pr $\forall$ in 5})
-    \item Wir schreiben oft "für alle $x \in C : x \in D$" statt "für alle $x s.t. x \in C : x \in D$" 
-\end{itemize}
+        \paragraph{Bemerkungen}
+            \begin{itemize}
+                \item Durch Einrückung kennzeochnen wir \textbf{Teilbeweise} die von einer ANnahme wie "Sei $x \in C$ beliebig" abhängen.
+                \item Eine Annahme hat keine Begründung.
+                \item Teilbeweise 2-4 basieren auf der Annahme in 1
+                \item Schritte aus 1-4 können nicht in Begründungen auftauchen, sobald der Teilbeweis fertig ist (d. h, \textbf{nach pr $\forall$ in 5})
+                \item Wir schreiben oft "für alle $x \in C : x \in D$" statt "für alle $x s.t. x \in C : x \in D$" 
+            \end{itemize}
 
-\section{Verwenden von $\forall$ Aussagen}
-\subsection{Inferenzeregel um $\forall$ Aussagen zu verwenden}
-\defbox
-{
-    Die Regel um $\forall$ Aussagen in Beweisen zu verwenden (us $\forall$)
+    \subsection{Verwenden von für alle Aussagen}
+
+        \subsubsection{Inferenzeregel um all Aussagen zu verwenden}
+            \defbox
+            {
+                Die Regel um $\forall$ Aussagen in Beweisen zu verwenden (us $\forall$)
+            }
+            {
+                Wenn wir wissen das eine Aussage "für alle $x$ s.t $\mathcal{P}(x) : \mathcal{Q}(x)$" wahr ist und wir $\mathcal{P}(t)$ berets als einen Schritt für eine Variable $t$ im Beweis haben, dann können wir $\mathcal{Q}(t)$ ableiten.
+            }
+                
+            \paragraph*{Beispiel}
+
+                \begin{align*}
+                    1. &\quad t \in A                   && \\
+                    2. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \\
+                    3. &\quad t \in B && (1, 2; us \forall)\\
+                \end{align*}    
+
+            \paragraph{Beispiel}
+
+                \begin{align*}
+                    1. &\quad |a| < |b|                   && \\
+                    2. &\quad \text{für alle x s.t.} |x| \leq |y| : x^2 \leq y^2                      && \\
+                    3. &\quad a^2 < b^2 && (1, 2; us \forall)\\
+                \end{align*}    
+
+            \paragraph{Beispiel}
+                Seiesn $A, B, C$ Mengen. Zeige $\subseteq$ ist transitiv, d. h, zeige $A \subseteq B$ und $B \subseteq B$, dann $A \subseteq C$.
+                \paragraph*{Annahme: }
+                    A, B, C Mengen
+                    \begin{enumerate}
+                        \item \(A \subseteq B\)
+                        \item \(B \subseteq C\)
+                    \end{enumerate}
+                \paragraph*{Zeige: \(A \subseteq C\)}
+                \begin{enumerate}
+                    \item \(\quad  x \in A\) beliebig
+                \end{enumerate}
+
+    \subsection{Beweisen und verwenden von Oder Aussagen}
+        \subsubsection{Inverenzregeln u oder Aussagen zu verwenden}
+            \defbox
+            {
+                Die Regel um \(\vee\) Aussagen in Beweisen anzuwenden (us \(\vee\))
+            }
+            {
+                Wenn wir wissen das "\(\mathfrak{P}\) oder \(\mathfrak{Q}\)" wahr ist und wir bewiesen können das \(\mathfrak{R}\) wahr ist wenn \(\mathfrak{Q}\) gilt sowie das \(\mathfrak{R}\) wahr ist wenn \(\mathfrak{P}\) gilt, dann können wir ableiten das \(\mathfrak{R}\) gilt.
+            }
+            \(\Rightarrow\) Dies nennt man auch Fallunterscheidung!
+            \paragraph{Definition 1}
+                Gegeben Mengen A und B, die Vereinigung von A und B,\\ \(A \cup B = \{x \vert x \in A\) oder \(x \in B\}\). 
+            \newpage
+            \paragraph{Beispiel} 
+                Für Mengen A, B, C, wenn \(A \subseteq C\) und \(B \subseteq C\), dann \((A \cup B) \subseteq C\).
+                \subparagraph{Annahme:}
+                    A, B, C Mengen
+                    \begin{enumerate}
+                        \item \(A \subseteq C\)
+                        \item \(B \subseteq C\)
+                    \end{enumerate}
+                \subparagraph{Zeige:}
+                    \(A \cup B = \{x \vert x \in A\) oder \(x \in B\}\)
+                    \\
+                    \renewcommand{\arraystretch}{1.5} % Increase vertical spacing by a factor of 1.5
+                    \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                        1. & Sei $x \in A \cup B$ beliebig & \\
+                        2. & $x \in A$ oder $x \in B$ & (1; def $\cup$) \\
+                        3. & Fall 1: Annahme $x \in A$ & \\
+                        4. & für alle $t \in A$: $t \in C$ & (ass 1; def $\subseteq$) \\
+                        5. & $x \in C$ & (3, 4; us $\forall$) \\
+                        6. & Fall 2: Annahme $x \in B$ & \\
+                        7. & für alle $t \in B$: $t \in C$ & (ass 2; def $\subseteq$) \\
+                        8. & $x \in C$ & (6, 7; us $\forall$) \\
+                        9. & $x \in C$ & (2, 3-8; us $\lor$) \\
+                        10. & für alle $x \in A \cup B$: $x \in C$ & (1-9; pr $\forall$) \\
+                        11. & $(A \cup B) \subseteq C$ & (10; def $\subseteq$) \\
+                    \end{tabular}
+        \defbox
+        {
+            Erweiterte Definitionsregel(\(def^2\))
+        }
+        {
+            Wenn eine Aussage \(\mathfrak{P}\) die definierende Eigenschaft von einer Definition ist, ist es zulässigen \(\mathfrak{P}\) zu verwenden oder zu beweisen \textbf{ohne} \(\mathfrak{P}\) selbst als Schritt anzuführen. Als Begründung für den abgeleiteten Schritt gibt man die Definition und nicht die Regel um \(\mathfrak{P}\) zu verwenden oder zu beweisen.  
+        }
+        \(\Rightarrow\) kürzere Beweise (mit ausgelassenen Details)
+        \subsubsection*{Beispiel}
+            \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                1. & \(a \in M\) & \\
+                2. & \(M \subseteq N\) & \\
+                3. & \(a \in N\) & (1, 2; \(def^2 \subseteq\))\\
+            \end{tabular}
+            \paragraph{Warnung:}
+                Später verwenden wir \(def\) und \(def^2\) synonym!
+                \subsubsection{Inverenzregeln um oder Aussagen zu beweisen}
+                \defbox
+                {
+                    Beweisregel für \(\vee\) (pr \(\vee\))
+                }
+                {
+                    Wenn \(\mathfrak{P}\) als Schritt in einem Beweis etabliert wurde, dann kann "\(\mathfrak{P}\) oder \(\mathfrak{Q}\)" als neue Zeile geschrieben werden. Symmetrisch, wenn \(\mathfrak{Q}\) als Schritt in einem Beweis etabliert wurde, dann kann "\(\mathfrak{P}\) oder \(\mathfrak{Q}\)" als neue Zeile geschrieben werden.
+                }
+            \paragraph{Beispiel}
+                Für Mengen A, B, C: wenn \(A \subseteq B\) oder \(A \subseteq C\), dann \(A \subseteq B \cup C\)
+                \subparagraph{Annahme:}
+                    A, B, Mengen
+                    \begin{enumerate}
+                        \item \(A \subseteq B\) oder \(A \subseteq C\)
+                    \end{enumerate}
+                \subparagraph{Zeige:}
+                    \(A \subseteq (B \cup C)\)\\
+                    \begin{tabular}{p{0.5cm}p{6cm}p{4cm}}
+                        1. & Sei $x \in A$ beliebig & \\
+                        2. & $A \subseteq B$ oder $A \subseteq C$ & (ass 1) \\
+                        3. & Fall 1: Annahme $A \subseteq B$ & \\
+                        4. & $x \in B$ & (1, 3; def $\subseteq$) \\
+                        5. & $x \in B$ oder $x \in C$ & (4; pr $\lor$) \\
+                        6. & Fall 2: Annahme $A \subseteq C$ & \\
+                        7. & $x \in C$ & (1, 6; def $\subseteq$) \\
+                        8. & $x \in B$ oder $x \in C$ & (7; pr $\lor$) \\
+                        9. & $x \in B$ oder $x \in C$ & (2, 3-8; us $\lor$) \\
+                        10. & $x \in (B \cup C)$ & (9; def $\cup$) \\
+                        11. & für alle $x \in A$: $x \in (B \cup C)$ & (1-10; pr $\forall$) \\
+                        12. & $A \subseteq (B \cup C)$ & (11; def $\subseteq$) \\
+                    \end{tabular}
+        \newpage
+        \subsubsection{Generalisierung oder Inferenzregeln}
+            \defbox
+                {
+                    Regel um \(\vee\) in Beweisen zu verwenden (us \(\vee\)) final
+                }
+                {
+                    Wenn wir wissen das "\(\mathfrak{P}_1 oder \mathfrak{P}_2\) oder \(\cdots \mathfrak{P}_n\)" wahr ist und wir beweisen das \(\mathfrak{R}\) in allen fällen nicht zu einem Wiederspruch führt, dann können wir ableiten das \(\mathfrak{R}\) wahr ist.
+                }
+            \defbox
+            {
+                Regel um \(\vee\) in Beweisen zu beweisen (us \(\vee\) final)
+            }
+            {
+                Wir können "\(\mathfrak{P}_1\) oder \(\mathfrak{P}_2\) oder \(\mathfrak{P}_n\)" als Schritt in einem Beweis aufführen falls wir einen von \(\mathfrak{P}_1\) bis \(\mathfrak{P}_n\) im Beweis etabliert haben.
+            }
+    \subsection{Beweisen und verwenden von Und Aussagen}
+        \defbox
+        {
+            Regel um \(\wedge\) zu verwenden (us \(\wedge\))
+        }
+        {
+            Wenn "\(\mathfrak{P}\) und \(\mathfrak{Q}\)" ein Schritt in einem Beweis ist, dann können wir sowohl \(mathfrak{P}\) als auch \(\mathfrak{Q}\) als Schritt aufführen.
+        }
+        \paragraph{Beipiel\\}
+        \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+            1. & \(a < 1\) und \(a \in A\) & \\
+            2. & \(a < 1 \) (oder 2. \(a \in A\)) & (1; us \(\wedge\)) \\
+        \end{tabular}
+        \defbox
+        {
+            Regel um \(\wedge\) zu beweisen (pr \(\wedge\))
+        }
+        {
+            Um "\(\mathfrak{P} und \mathfrak{Q}\)" in einem Beweis zu zeigen, zeige \(\mathfrak{P}\) und zeige ebenfalls \(\mathfrak{Q}\)
+        }
+        \paragraph{Beispiel\\}
+            \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                i. & \(\mathfrak{P}\) & \\
+                   & \(\vdots\) & \\
+                j. & \(\mathfrak{Q}\) & \\
+                   & \(\vdots\) & \\
+                k. & \(\mathfrak{P}\) und \(\mathfrak{Q}\) & (i, j; pr \(\wedge\)) \\
+            \end{tabular}
+        \paragraph{Beispiel: }
+            Zeige für Mengen A, B das gilt \(A \cap B = B \cap A\) \\
+            \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                1. & \(\quad \)Sei \( x \in A \cap B\) beliebig & \\
+                2. & \(\quad\)\(x \in A\) oder \(x \in B\) & (1; def \(\cap\)) \\
+                3. & \(\quad\)\(x \in A\) & (2; us \(\wedge\)) \\
+                4. & \(\quad\)\(x \in B\) & (2; us \(\wedge\)) \\
+                5. & \(\quad\)\(x \in B\) und \(x \in A\) & (4, 3; pr \(\wedge\)) \\
+                6. & \(\quad\)\(x \in B \cap A\) & (5; def \(\cap\)) \\
+                7. & für alle \(x \in A \cap B : x \in B \cap A\) & (1 - 6; pr \(\forall\)) \\
+                8. & \(A \cap B \subseteq B \cap A\) & (7; def \(\subseteq\)) \\
+                9. & \(B \cap A \subseteq A \cap B\) & (1 - 8; symnetry) \\
+                10. & \(A \cap B \subseteq B \cap A\) und \(B \cap A \subseteq A \cap B\) & (8, 9; pr \(\wedge\)) \\
+                11. & \(A \cap B = B \cap A\) & (10; def =) \\
+            \end{tabular}
+            \\
+            In 11, benutzen wir die Definition "\(=\)", d.h, \textbf{A = B iff A \(\subseteq\) B \(\wedge\) B \(\subseteq\) A}
+        \newpage
+        \paragraph{Symmetrieregel}
+        \defbox
+        {
+            Symmetrieregel
+        }
+        {
+            Wenn \(\mathfrak{P}(A_1, B_1, \cdots)\) eine Aussage ist die bewiesen wurde für beliebige \(A_1, B_1, \cdots\) in den Annahmen und Hypotesen, und falls \(A_2, B_2, \cdots\) eine Permutatuion von \(A_1, B_2, \cdots\) ist dann ist \(\mathfrak{P}(A_2, B_2, \cdots)\) wahr. Dies lässt sich auch auf universelle Variable in für alle Aussagen übertragen, d.h., wenn für alle \(A_1, B_1, \cdots : \mathfrak{P}(A_1, B_1, \cdots)\) wahr ist, dann ist für alle \(A_2, B_2, \cdots : \mathfrak{P}(A_2, B_2, \cdots)\) ebenfalls wahr.
+        }
+        \paragraph{Beispiel von oben:}
+        \[
+            A \cap B \subseteq B \cap A
+        \]
+        \[
+            \downarrow \quad \ \ \downarrow \quad \ \downarrow \quad \ \downarrow    
+        \]
+        \[
+            B \cap A \subseteq A \cap B
+        \]
+        Tausche A durch B und B durch A
+    \subsection{Theoreme verwednen}
+    \defbox
+    {
+        Regel für Substitutionen (subs)
     }
-{
-    Wenn wir wissen das eine Aussage "für alle $x$ s.t $\mathcal{P}(x) : \mathcal{Q}(x)$" wahr ist und wir $\mathcal{P}(t)$ berets als einen Schritt für eine Variable $t$ im Beweis haben, dann können wir $\mathcal{Q}(t)$ ableiten.
-}
+    {
+        Jeder Name oder Repräsentant eines mathematischen Objekts kann durch einen anderen Namen/ Repräsentanten des gleichen Objekts ersetzt werden. Gleiche Namen für unterschiedliche Objekte dürfen nicht verwendet werden.
+    }
+    \paragraph{Beispiel 1}
+        \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+            1. & \(A \cap B = C\) & \\
+            2. & \(A = D\) & \\
+            3. & \(D \cap B = C\) & (1,2; subs)\\
+        \end{tabular}
+        
+    \paragraph{Beispiel 2}
+        \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+            1. & \(x^2 + x = 6\) & \\
+            2. & \(x = y + 1\) & \\
+            3. & \((y+1)^2 + y + 1 = 6\) & (1,2; subs)\\
+        \end{tabular}
+    \defbox
+    {
+        Theoremregel (thm)
+    }
+    {
+        um ein Theorem auf Schritte in einem Beweis anzuwenden, finde eine Aussage \(\mathfrak{P}\) die äquivalent zur Aussage vom Theorem ist. Dann kann \(\mathfrak{P}\) als neuer Schritt im Beweis aufgeführt werden oder durch Substitution verwendet werden um einen Schritt zu verändern.
+    }
+    \begin{itemize}
+        \item Dies ist eine Möglichkeit Lemmas in Beweisen zu verwenden
+        \item Weitere Möglichkeiten \(\rightarrow\) später
+    \end{itemize}
 
-\subsubsection{Beispiel}
+    \paragraph{Beispiel: }
+        Zeuge für Mengen A, B, C: es gilt \(A \cup (B \cup C) = (A \cup B) \cup C\)
+        \subparagraph{Annahmen:}
+            A, B, C Mengen 
+        \subparagraph{Zeige:}
+            \(A \cup (B \cup C) = (A \cup B) \cup C\)
+        
+            \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                1. & \(\quad\)Sei \(x \in (A \cup B) \cup C\) beliebig & \\
+                2. & \(\quad\)\(x \in (A \cup B)\) oder \(x \in C\) & (1; def \(\cup\)) \\
+                3. & \(\quad\)\(\quad\) Fall 1: \(x \in A \cup B\) & \\
+                4. & \(\quad\)\(\quad\) \(x \in A\) oder \(x \in B\) & (3; def \(\cup\))\\
+                5. & \(\quad\)\(\quad\)\(\quad\) Fall 1a: \(x \in A\) & \\
+                6. & \(\quad\)\(\quad\)\(\quad\) \(x \in A \cup (B \cup C)\) & (5; def \(\cup\)) \\
+                7. & \(\quad\)\(\quad\)\(\quad\) Fall 1b: \(x \in B\) & \\
+                8. & \(\quad\)\(\quad\)\(\quad\) \(x \in B \cup C\) & (7; def \(\cup\))\\
+                9. & \(\quad\)\(\quad\)\(\quad\) \(x \in A \cup (B \cup C)\) & (8, def \(\cup\)) \\
+                10. & \(\quad\)\(\quad\) \(x \in A \cup (B \cup C)\) & (4, 5-9; us \(\vee\)) \\
+                11. & \(\quad\)\(\quad\) Fall 2: \(x \in C\) & \\
+                12. & \(\quad\)\(\quad\) \(x \in B \cup C\) & (11; def \(\cup\)) \\
+                13. & \(\quad\)\(\quad\) \(x \in A \cup (B \cup C)\) & (12; def \(\cup\))\\
+                14 & \(\quad\) \(x \in A \cup (B \cup C)\) & (2, 3 - 13; us \(\vee\))\\
+                15 & \((A \cup B) \cup C \subseteq A \cup (B \cup C)\) & (1, 2 - 14; def \(\subseteq\)) \\
+                16 & \(C \cup (B \cup A) \subseteq (C \cup B) \subseteq A\) & (15, Thm \(X \cup Y = Y \cup X\)) \\
+                17. & \(A \cup (B \cup C) \subseteq (A \cup B) \cup C\) & (16; symmetry (AC)) \\
+                18. & \(A \cup (B \cup C) = (A \cup B) \cup C\) & (15, 17; def \(=\))
+            \end{tabular}
+        \subsubsection{Substitution anwenden}
+            \paragraph{Beispiel}
+        \subsubsection*{Beispiel...}
+    \subsection{Beweisen und verwenden von Implikationen}
+        \subsubsection{}
+    \subsection{law of Excludet Middle}
+    \subsection{Equivalenz und iff Aussagen}
+        \subsubsection{Inferenzeregel um if-then Aussagen zu beweisen}
+            \defbox
+            {
+                Regel um Implikationen zu verwenden (us \(\rightarrow\)) (oder modus ponens (MP))
+            }
+            {
+                Wenn \(\mathfrak{P}\) und "if \(\mathfrak{P}, then \mathfrak{Q}\)" Schritte in einem Beweis sind, dann können wir \(\mathfrak{Q}\) ableiten und als Schritt schreiben.
+            }
+            \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                i. & \(\mathfrak{P}\) & \\
+                    & \(\vdots\) & \\
+                j. & if \(\mathfrak{P}\), then \(\mathfrak{P}\) & \\
+                j+1 & \(\mathfrak{Q}\) & (i, j; us \(\rightarrow\))\\
+            \end{tabular}
+            \paragraph{Beispiel\\}
+                \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                    1. & if \(x < 2\), then \(x \in A\) & \\
+                    2. & \(x < 2\) & \\
+                    3. & \(x \in A\) & (1, 2; us \(\rightarrow\))\\
+                \end{tabular}
+        \subsubsection{Beweisen und verwenden von Äquivalenzen}
+        \defbox
+        {
+            Beweisen von Äquivalenzen (pr \(\leftrightarrow\))
+        }
+        {
+            Um zu zegen "\(\mathfrak{P}\) ist äquivalent zu \(\mathfrak{Q}\)" nimm zuerst an \(\mathfrak{P}\) gilt und zeige \(\mathfrak{Q}\), und dann nimm \(\mathfrak{Q}\) an und zeige \(\mathfrak{P}\)
+        }
+        \defbox
+        {
+            Verwenden von Äquivalenzen (pr \(\leftrightarrow\))
+        }
+        {
+            Eine Aussage darf durch eine äquivalente Aussage ersetzt werden. 
+        }
+        \subsubsection{iff Aussagen}
+        \begin{itemize}
+            \item \(\mathfrak{P}\) iff \(\mathfrak{Q}\) gilt genau dann wenn \(\mathfrak{P} \leftrightarrow \mathfrak{Q}\) ist wahr
+            \item Zeige \(\mathfrak{P}\) iff \(\mathfrak{Q}\): beweise " if \(\mathfrak{P}\), then \(\mathfrak{Q}\)" und "if \(\mathfrak{Q}\), then \(\mathfrak{P}\)"
+            \item " if \(\mathfrak{P}\), then \(\mathfrak{Q}\)" wird typischerweise bewiesen durch Annahme von \(\mathfrak{P}\) und Ableitung von \(\mathfrak{Q}\)
+            \item Oder " if \(\mathfrak{P}\), then \(\mathfrak{Q}\)" Kontraposition beweisen: \\ Zeige " if \(\mathfrak{P}\), then \(\mathfrak{Q}\)": Annahme von \(\lnot \mathfrak{Q}\) um Herleitung \(\lnot \mathfrak{P}\)
+        \end{itemize}
+    \subsection{Beweis durch Wiederspruch}
+        \subsubsection{Das Ableitungsschema}
+            \paragraph{Idee:}
+                Nimm die Negation von \(\mathfrak{P}\) an und leite einen Wiederspruch her!
 
-    \begin{align*}
-        1. &\quad t \in A                   && \\
-        2. &\quad \text{für alle x s.t.} x \in A : x \in B                      && \\
-        3. &\quad t \in B && (1, 2; us \forall)\\
-    \end{align*}    
+                \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                       & \(\vdots\) & \\
+                    i. & \(\mathfrak{Q}\) & \\
+                       & \(\vdots\) & \\
+                    j. & \(\quad\) Annahme \(\lnot \mathfrak{P}\) (um einen Wiederspruch zu erhalten) & \\
+                       & \(\quad \vdots\) & \\
+                    k. & \(\quad\) \(\lnot \mathfrak{Q}\) (Wiederspruch zu \(\mathfrak{Q}\) bei i.) & \\
+                    k+1.& \(\mathfrak{P}\) & \\
 
-\subsubsection{Beispiel}
-
-\begin{align*}
-    1. &\quad |a| < |b|                   && \\
-    2. &\quad \text{für alle x s.t.} |x| \leq |y| : x^2 \leq y^2                      && \\
-    3. &\quad a^2 < b^2 && (1, 2; us \forall)\\
-\end{align*}    
-
-\subsection{Beispiel}
-Seiesn $A, B, C$ Mengen. Zeige $\subseteq$ ist transitiv, d. h, zeige $A \subseteq B$ und $B \subseteq B$, dann $A \subseteq C$.
-
-
+                \end{tabular}
+        \paragraph{Beispiel}
+            Zeige: \(\forall x \in \mathbb{R} \wedge x \in [0, \pi / 2] : sin x + cos \geq 1\)
+            \begin{tabular}{p{0.8cm}p{6cm}p{4cm}}
+                1. &  &  \\
+                2. &  &  \\
+                3. &  &  \\
+            \end{tabular}
+    \subsection{Existenzaussagen}
+        \subsubsection{Verwendung}
+            \defbox
+            {
+                Existenzaussagen verwenden (us \(\exists\))
+            }
+            {
+                Um eine Aussage "\(\mathfrak{P}(j)\) füe ein \(1 \leq j \leq n\)" in einem Beweis zu verwenden, schreibe "Wähle \(1 \leq j_0 \leq n\) s.t. \(\mathfrak{P}(j_0)\)". Das definiert das Symbol \(j_0\). Beide Ausdrücke \(1 \leq j_0 \leq n\) und \(\mathfrak{P}(j_0)\) können später im Beweis verwendet werden.
+            }
+            \paragraph{Beispiel:}
+                Für \(i = 1, 2, \cdots, 10\),definiere \(A_i = \{t \in \mathbb{R} \vert 0 < t < \frac{1}{i}\}\)
+        \subsubsection{beweisen (leichte Variante)}
+        \subsubsection{Erweiterte Existenzaussagen}
+        \paragraph{Negierung}
+        \paragraph{Induktion}
+        \subparagraph{Induktionsprinzipien}
+        \subparagraph{How dows it work behind the scene?}
+        \subparagraph{Mathematische Induktion}
+        \subparagraph*{Mathematische Induktion(Beispiel)}

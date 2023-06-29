@@ -1,79 +1,134 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Beweise}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Statements}{4}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Formal mathematical proofs}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Set definition rule: Beispiel}{5}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Macro-steps in proofs}{5}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Einfache Beweistechniken}{5}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Beweis durch beispiel}{5}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Wiederlegen von Behauptungen}{5}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}$\forall $ Aussagen beweisen}{6}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Ein Beispiel}{7}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Bemerkungen}{7}{subsubsection.1.6.2}%
-\contentsline {section}{\numberline {2}Verwenden von $\forall $ Aussagen}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Inferenzeregel um $\forall $ Aussagen zu verwenden}{7}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Beispiel}{7}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Beispiel}{8}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Beispiel}{8}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Einführung}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Algorithmenanalyse}{9}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Asymptotische Algorithmenanalyse}{9}{subsubsection.3.1.1}%
-\contentsline {section}{\numberline {4}Fogen, Felder und Listen}{10}{section.4}%
-\contentsline {paragraph}{\nonumberline Folgen}{10}{paragraph*.9}%
-\contentsline {paragraph}{\nonumberline Anwendungen}{10}{paragraph*.11}%
-\contentsline {paragraph}{\nonumberline Form Follows Function}{10}{paragraph*.13}%
-\contentsline {subsection}{\numberline {4.1}Verkettete Listen}{11}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Doppelt verkettete Listen}{11}{subsubsection.4.1.1}%
-\contentsline {paragraph}{\nonumberline Listenglieder (Items)}{11}{paragraph*.15}%
-\contentsline {subparagraph}{\nonumberline Probleme:}{11}{subparagraph*.17}%
-\contentsline {paragraph}{\nonumberline Trick: Dummy-Header}{12}{paragraph*.19}%
-\contentsline {paragraph}{\nonumberline Der rest sind Einzeiler (?)}{13}{paragraph*.21}%
-\contentsline {paragraph}{\nonumberline Oder doch nicht? Speicherverwaltung!}{13}{paragraph*.23}%
-\contentsline {paragraph}{\nonumberline Items Löschen}{13}{paragraph*.25}%
-\contentsline {paragraph}{\nonumberline Elemente einfügen}{13}{paragraph*.27}%
-\contentsline {paragraph}{\nonumberline Ganze (Teil)Listen Manipulieren}{13}{paragraph*.29}%
-\contentsline {paragraph}{\nonumberline Suchen}{13}{paragraph*.31}%
-\contentsline {paragraph}{\nonumberline Funktionalität \(\leftrightarrow \) Efﬁzienz}{13}{paragraph*.33}%
-\contentsline {subsubsection}{\numberline {4.1.2}Einfach verkettete Listen}{14}{subsubsection.4.1.2}%
-\contentsline {paragraph}{\nonumberline Einfach verkettete Listen – Invariante?}{14}{paragraph*.35}%
-\contentsline {paragraph}{\nonumberline Einfach verkettete Listen – SPLICE}{14}{paragraph*.37}%
-\contentsline {paragraph}{\nonumberline Einfach verkettete Listen – PUSHBACK}{14}{paragraph*.39}%
-\contentsline {paragraph}{\nonumberline Listen: Zusammenfassung, Verallgemeinerungen}{14}{paragraph*.41}%
-\contentsline {paragraph}{\nonumberline Felder (Arrays)}{14}{paragraph*.43}%
-\contentsline {subparagraph}{\nonumberline Beschränkte Felder (Bounded Arrays)}{14}{subparagraph*.45}%
-\contentsline {subsection}{\numberline {4.2}Unbeschränkte Felder (Unbounded Arrays)}{14}{subsection.4.2}%
-\contentsline {paragraph}{\nonumberline Unbeschränke Felder – Anwendungen}{14}{paragraph*.47}%
-\contentsline {paragraph}{\nonumberline Unbeschränke Felder – Grundidee}{14}{paragraph*.49}%
-\contentsline {paragraph}{\nonumberline Unbeschränke Felder mit teilweise ungenutztem Speicher}{14}{paragraph*.51}%
-\contentsline {paragraph}{\nonumberline Kürzen}{14}{paragraph*.53}%
-\contentsline {subsubsection}{\numberline {4.2.1}Amortisierte Komplexität unbeschr. Felder}{14}{subsubsection.4.2.1}%
-\contentsline {paragraph}{\nonumberline Beweis: Konto-Methode (oder Versicherung)}{14}{paragraph*.55}%
-\contentsline {subsection}{\numberline {4.3}Amortisierte Analyse – allgemeiner}{14}{subsection.4.3}%
-\contentsline {paragraph}{\nonumberline Amortisierte Analyse – Diskussion}{14}{paragraph*.57}%
-\contentsline {subsection}{\numberline {4.4}Stapel und Schlangen}{15}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Vergleich: Listen – Felder}{15}{subsection.4.5}%
-\contentsline {paragraph}{\nonumberline Iterieren}{15}{paragraph*.59}%
-\contentsline {paragraph}{\nonumberline Einfügen an zufälliger Position}{15}{paragraph*.61}%
-\contentsline {section}{\numberline {5}Hashing}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Hashing mit verketteten Listen}{16}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Universelles Hashing}{16}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Hashing mit Linearer Suche (Linear Probing)}{16}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Sortieren}{17}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Einfache Sortieralgorithmen}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Sortieren durch Mischen}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Untere Schranken}{18}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Prioritätslisten}{20}{section.7}%
-\contentsline {subsection}{\numberline {7.1}\dots }{20}{subsection.7.1}%
-\contentsline {section}{\numberline {8}Sortierte Listen}{21}{section.8}%
-\contentsline {subsection}{\numberline {8.1}\dots }{21}{subsection.8.1}%
-\contentsline {section}{\numberline {9}Graphenreprarsentation}{22}{section.9}%
-\contentsline {subsection}{\numberline {9.1}\dots }{22}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Graphtravesierung}{23}{section.10}%
-\contentsline {subsection}{\numberline {10.1}\dots }{23}{subsection.10.1}%
-\contentsline {section}{\numberline {11}Küreste Wege}{24}{section.11}%
-\contentsline {subsection}{\numberline {11.1}\dots }{24}{subsection.11.1}%
-\contentsline {section}{\numberline {12}Minimale Spannbäume}{25}{section.12}%
-\contentsline {subsection}{\numberline {12.1}\dots }{25}{subsection.12.1}%
-\contentsline {section}{\numberline {13}Optimierung}{26}{section.13}%
-\contentsline {subsection}{\numberline {13.1}\dots }{26}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {1.0.1}Obervation}{4}{subsubsection.1.0.1}%
+\contentsline {subsubsection}{\numberline {1.0.2}Links, etc}{4}{subsubsection.1.0.2}%
+\contentsline {subsubsection}{\numberline {1.0.3}Statements}{4}{subsubsection.1.0.3}%
+\contentsline {paragraph}{\nonumberline Beispiel:}{4}{paragraph*.3}%
+\contentsline {subsubsection}{\numberline {1.0.4}Formal mathimatical Proofs}{4}{subsubsection.1.0.4}%
+\contentsline {subsubsection}{\numberline {1.0.5}set definition rule: Beispiel}{5}{subsubsection.1.0.5}%
+\contentsline {paragraph}{\nonumberline Bemerkung: $\land b \in R$}{5}{paragraph*.5}%
+\contentsline {subsubsection}{\numberline {1.0.6}Makrosteps in Proof}{5}{subsubsection.1.0.6}%
+\contentsline {paragraph}{\nonumberline Problem:}{5}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Ist das ein akzrptabler Beweis?}{5}{paragraph*.9}%
+\contentsline {subsection}{\numberline {1.1}Einfache Beweistechniken}{5}{subsection.1.1}%
+\contentsline {paragraph}{\nonumberline Beweis durch beispiel}{5}{paragraph*.11}%
+\contentsline {subsubsection}{\numberline {1.1.1}Wiederlegen von Behauptungen}{5}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2}Beweisen und verwenden von Für Alle Aussagen}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Inferenzregel für definierte Beziehungen}{6}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Inferenzeregel für all Aussagen}{6}{subsubsection.1.2.2}%
+\contentsline {paragraph}{\nonumberline Generaliesirungen}{6}{paragraph*.13}%
+\contentsline {paragraph}{\nonumberline Ein Beispiel}{7}{paragraph*.15}%
+\contentsline {paragraph}{\nonumberline Bemerkungen}{7}{paragraph*.18}%
+\contentsline {subsection}{\numberline {1.3}Verwenden von für alle Aussagen}{7}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Inferenzeregel um all Aussagen zu verwenden}{7}{subsubsection.1.3.1}%
+\contentsline {paragraph}{\nonumberline Beispiel}{7}{paragraph*.21}%
+\contentsline {paragraph}{\nonumberline Beispiel}{8}{paragraph*.23}%
+\contentsline {subsection}{\numberline {1.4}Beweisen und verwenden von Oder Aussagen}{8}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Inverenzregeln u oder Aussagen zu verwenden}{8}{subsubsection.1.4.1}%
+\contentsline {paragraph}{\nonumberline Definition 1}{8}{paragraph*.27}%
+\contentsline {paragraph}{\nonumberline Beispiel}{9}{paragraph*.29}%
+\contentsline {subparagraph}{\nonumberline Annahme:}{9}{subparagraph*.31}%
+\contentsline {subparagraph}{\nonumberline Zeige:}{9}{subparagraph*.33}%
+\contentsline {paragraph}{\nonumberline Warnung:}{9}{paragraph*.36}%
+\contentsline {subsubsection}{\numberline {1.4.2}Inverenzregeln um oder Aussagen zu beweisen}{10}{subsubsection.1.4.2}%
+\contentsline {paragraph}{\nonumberline Beispiel}{10}{paragraph*.38}%
+\contentsline {subparagraph}{\nonumberline Annahme:}{10}{subparagraph*.40}%
+\contentsline {subparagraph}{\nonumberline Zeige:}{10}{subparagraph*.42}%
+\contentsline {subsubsection}{\numberline {1.4.3}Generalisierung oder Inferenzregeln}{11}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Beweisen und verwenden von Und Aussagen}{11}{subsection.1.5}%
+\contentsline {paragraph}{\nonumberline Beipiel\\}{11}{paragraph*.44}%
+\contentsline {paragraph}{\nonumberline Beispiel\\}{12}{paragraph*.46}%
+\contentsline {paragraph}{\nonumberline Beispiel:}{12}{paragraph*.48}%
+\contentsline {paragraph}{\nonumberline Symmetrieregel}{13}{paragraph*.50}%
+\contentsline {paragraph}{\nonumberline Beispiel von oben:}{13}{paragraph*.52}%
+\contentsline {subsection}{\numberline {1.6}Theoreme verwednen}{13}{subsection.1.6}%
+\contentsline {paragraph}{\nonumberline Beispiel 1}{13}{paragraph*.54}%
+\contentsline {paragraph}{\nonumberline Beispiel 2}{13}{paragraph*.56}%
+\contentsline {paragraph}{\nonumberline Beispiel:}{14}{paragraph*.58}%
+\contentsline {subparagraph}{\nonumberline Annahmen:}{14}{subparagraph*.60}%
+\contentsline {subparagraph}{\nonumberline Zeige:}{14}{subparagraph*.62}%
+\contentsline {subsubsection}{\numberline {1.6.1}Substitution anwenden}{15}{subsubsection.1.6.1}%
+\contentsline {paragraph}{\nonumberline Beispiel}{15}{paragraph*.64}%
+\contentsline {subsection}{\numberline {1.7}Beweisen und verwenden von Implikationen}{15}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}law of Excludet Middle}{15}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Equivalenz und iff Aussagen}{15}{subsection.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}Inferenzeregel um if-then Aussagen zu beweisen}{15}{subsubsection.1.9.1}%
+\contentsline {paragraph}{\nonumberline Beispiel\\}{15}{paragraph*.67}%
+\contentsline {subsubsection}{\numberline {1.9.2}Beweisen und verwenden von Äquivalenzen}{15}{subsubsection.1.9.2}%
+\contentsline {subsubsection}{\numberline {1.9.3}iff Aussagen}{16}{subsubsection.1.9.3}%
+\contentsline {subsection}{\numberline {1.10}Beweis durch Wiederspruch}{16}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}Das Ableitungsschema}{16}{subsubsection.1.10.1}%
+\contentsline {paragraph}{\nonumberline Idee:}{16}{paragraph*.69}%
+\contentsline {paragraph}{\nonumberline Beispiel}{16}{paragraph*.71}%
+\contentsline {subsection}{\numberline {1.11}Existenzaussagen}{17}{subsection.1.11}%
+\contentsline {subsubsection}{\numberline {1.11.1}Verwendung}{17}{subsubsection.1.11.1}%
+\contentsline {paragraph}{\nonumberline Beispiel:}{17}{paragraph*.73}%
+\contentsline {subsubsection}{\numberline {1.11.2}beweisen (leichte Variante)}{17}{subsubsection.1.11.2}%
+\contentsline {subsubsection}{\numberline {1.11.3}Erweiterte Existenzaussagen}{17}{subsubsection.1.11.3}%
+\contentsline {paragraph}{\nonumberline Negierung}{17}{paragraph*.75}%
+\contentsline {paragraph}{\nonumberline Induktion}{17}{paragraph*.77}%
+\contentsline {subparagraph}{\nonumberline Induktionsprinzipien}{17}{subparagraph*.79}%
+\contentsline {subparagraph}{\nonumberline How dows it work behind the scene?}{17}{subparagraph*.81}%
+\contentsline {subparagraph}{\nonumberline Mathematische Induktion}{17}{subparagraph*.83}%
+\contentsline {section}{\numberline {2}Einführung}{18}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Algorithmenanalyse}{18}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Asymptotische Algorithmenanalyse}{18}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {3}Fogen, Felder und Listen}{19}{section.3}%
+\contentsline {paragraph}{\nonumberline Folgen}{19}{paragraph*.87}%
+\contentsline {paragraph}{\nonumberline Anwendungen}{19}{paragraph*.89}%
+\contentsline {paragraph}{\nonumberline Form Follows Function}{19}{paragraph*.91}%
+\contentsline {subsection}{\numberline {3.1}Verkettete Listen}{20}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Doppelt verkettete Listen}{20}{subsubsection.3.1.1}%
+\contentsline {paragraph}{\nonumberline Listenglieder (Items)}{20}{paragraph*.93}%
+\contentsline {subparagraph}{\nonumberline Probleme:}{20}{subparagraph*.95}%
+\contentsline {paragraph}{\nonumberline Trick: Dummy-Header}{21}{paragraph*.97}%
+\contentsline {paragraph}{\nonumberline Der rest sind Einzeiler (?)}{22}{paragraph*.99}%
+\contentsline {paragraph}{\nonumberline Oder doch nicht? Speicherverwaltung!}{22}{paragraph*.101}%
+\contentsline {paragraph}{\nonumberline Items Löschen}{22}{paragraph*.103}%
+\contentsline {paragraph}{\nonumberline Elemente einfügen}{22}{paragraph*.105}%
+\contentsline {paragraph}{\nonumberline Ganze (Teil)Listen Manipulieren}{22}{paragraph*.107}%
+\contentsline {paragraph}{\nonumberline Suchen}{22}{paragraph*.109}%
+\contentsline {paragraph}{\nonumberline Funktionalität \(\leftrightarrow \) Efﬁzienz}{22}{paragraph*.111}%
+\contentsline {subsubsection}{\numberline {3.1.2}Einfach verkettete Listen}{23}{subsubsection.3.1.2}%
+\contentsline {paragraph}{\nonumberline Einfach verkettete Listen – Invariante?}{23}{paragraph*.113}%
+\contentsline {paragraph}{\nonumberline Einfach verkettete Listen – SPLICE}{23}{paragraph*.115}%
+\contentsline {paragraph}{\nonumberline Einfach verkettete Listen – PUSHBACK}{23}{paragraph*.117}%
+\contentsline {paragraph}{\nonumberline Listen: Zusammenfassung, Verallgemeinerungen}{23}{paragraph*.119}%
+\contentsline {paragraph}{\nonumberline Felder (Arrays)}{23}{paragraph*.121}%
+\contentsline {subparagraph}{\nonumberline Beschränkte Felder (Bounded Arrays)}{23}{subparagraph*.123}%
+\contentsline {subsection}{\numberline {3.2}Unbeschränkte Felder (Unbounded Arrays)}{23}{subsection.3.2}%
+\contentsline {paragraph}{\nonumberline Unbeschränke Felder – Anwendungen}{23}{paragraph*.125}%
+\contentsline {paragraph}{\nonumberline Unbeschränke Felder – Grundidee}{23}{paragraph*.127}%
+\contentsline {paragraph}{\nonumberline Unbeschränke Felder mit teilweise ungenutztem Speicher}{23}{paragraph*.129}%
+\contentsline {paragraph}{\nonumberline Kürzen}{23}{paragraph*.131}%
+\contentsline {subsubsection}{\numberline {3.2.1}Amortisierte Komplexität unbeschr. Felder}{23}{subsubsection.3.2.1}%
+\contentsline {paragraph}{\nonumberline Beweis: Konto-Methode (oder Versicherung)}{23}{paragraph*.133}%
+\contentsline {subsection}{\numberline {3.3}Amortisierte Analyse – allgemeiner}{23}{subsection.3.3}%
+\contentsline {paragraph}{\nonumberline Amortisierte Analyse – Diskussion}{23}{paragraph*.135}%
+\contentsline {subsection}{\numberline {3.4}Stapel und Schlangen}{24}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Vergleich: Listen – Felder}{24}{subsection.3.5}%
+\contentsline {paragraph}{\nonumberline Iterieren}{24}{paragraph*.137}%
+\contentsline {paragraph}{\nonumberline Einfügen an zufälliger Position}{24}{paragraph*.139}%
+\contentsline {section}{\numberline {4}Hashing}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hashing mit verketteten Listen}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Universelles Hashing}{25}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Hashing mit Linearer Suche (Linear Probing)}{25}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Sortieren}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Einfache Sortieralgorithmen}{27}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Sortieren durch Mischen}{27}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Untere Schranken}{27}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Prioritätslisten}{29}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\dots }{29}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Sortierte Listen}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}\dots }{30}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Graphenreprarsentation}{31}{section.8}%
+\contentsline {subsection}{\numberline {8.1}\dots }{31}{subsection.8.1}%
+\contentsline {section}{\numberline {9}Graphtravesierung}{32}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\dots }{32}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Küreste Wege}{33}{section.10}%
+\contentsline {subsection}{\numberline {10.1}\dots }{33}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Minimale Spannbäume}{34}{section.11}%
+\contentsline {subsection}{\numberline {11.1}\dots }{34}{subsection.11.1}%
+\contentsline {section}{\numberline {12}Optimierung}{35}{section.12}%
+\contentsline {subsection}{\numberline {12.1}\dots }{35}{subsection.12.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
